@@ -30,5 +30,5 @@ quantified with DIA-NN
 
 ## Requirements
 
-R ≥ 4.2 — `limma`, `tidyverse`, `clusterProfiler`, `org.Hs.eg.db`,
+R ≥ 4.2 : `limma`, `tidyverse`, `clusterProfiler`, `org.Hs.eg.db`,
 `enrichplot`, `readxl`, `writexl`, `ggrepel`, `ggsci`.
