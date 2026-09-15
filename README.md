@@ -23,7 +23,7 @@ quantified with DIA-NN
    Design `~ 0 + genotype + batch`; batch is balanced across genotypes, so it
    is orthogonal to the contrast and removes technical variance without biasing
    fold changes. Empirical Bayes moderation (`trend`, `robust`).
-6. **Multiple testing** - Benjamini–Hochberg applied once across both
+6. **Multiple testing** - Benjamini Hochberg applied once across both
    contrasts; volcano plots show BH-adjusted p-values on the y-axis.
 7. **Enrichment** - GO over-representation analysis (`clusterProfiler`) on
    significant proteins, split by direction.
